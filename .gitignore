@@ -14,3 +14,4 @@ log.*
 *.lck
 ajcore*txt
 __MACOSX
+*log
