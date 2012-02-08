@@ -60,8 +60,8 @@
             }
 
             function pollMarketData() {
-                /* This requests the url "msgsrv.php"
-            When it complete (or errors)*/
+                /* This requests the url "inplace.json"
+           `*/
                 $.ajax({
                     type: "GET",
                     url: "inplace.json",
@@ -71,7 +71,7 @@
                     timeout:50000, /* Timeout in ms */
 
                     success: function(data) {
-                        renderMarketData("success", data);/* Add response to a market_data div (with the "new" class)*/
+                        renderMarketData("success", data);/* Add response to a market_data div */
                         setTimeout(
                                 'pollMarketData()', /* Request next message */
                                 1000 /* ..after 1 seconds */
