@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Esper Market Data Ticker CEP Sample</title>
+        <title>Esper Market Data Ticker CEP Sample </title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js" type="text/javascript"
                 charset="utf-8"></script>
 
@@ -100,5 +100,6 @@
         <div id="market_data">
             No Data
         </div>
+        <div id="footer"><a href="http://www.opencredo.com"><img src="images/oc-logo-small.png"/></a></div>
     </body>
 </html>
