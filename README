@@ -1,2 +1,5 @@
 Full Esper stock ticker sample. Includes Esper configuration, Spring Integration and OpenCredo Esper Extension and AJAX-based front end dashboard.
+
+See the sample running on CloudFoundry: http://stocktickersample.cloudfoundry.com/index.html
+
 More on Aleksa's OpenCredo blog: www.opencredo.com/blog
