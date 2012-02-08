@@ -28,7 +28,8 @@
 
         <script type="text/javascript" charset="utf-8">
             function renderMarketData(type, data) {
-                var html = "<table class='market_daya' border='1'>"
+                var html = "<table class='market_daya' border='1'><thead><td>Symbol</td><td>avg(price)</td><td>avg(bid)</td><td>avg(ask)</td></thead>"
+
                 $.each(data, function(key, val) {
                     html = html + "<tr>" + "<td class='head'>" + key + "</td>"
                     html = html + renderCell(key, "avg(price)", val.price);
